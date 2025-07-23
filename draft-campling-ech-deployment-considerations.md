@@ -82,12 +82,6 @@ contributor: # Same structure as author list, but goes into contributors
   uri: https://www.linkedin.com/in/celine-leroy-1a534252/
   contribution: |
     Thank you to Céline for her work on cybersecurity financial impacts on enterprises.
-- name: Daniel Engberg
-  org: Skandinaviska Enskilda Banken AB (SEB)
-  email: daniel.engberg@seb.se
-  uri: https://www.linkedin.com/in/daniel-engberg-1561aaa/
-  contribution: |
-    Validate the issues for his organization.
 - name: Gianpiero Tavano
   org: Broadcom
   email: Gianpiero.Tavano@broadcom.com
@@ -510,7 +504,8 @@ To illustrate the degree of unreliability of SNI data, two  data sets were
 collected from SSL Session logs from a Symantec SSLV.  The goal was to 
 see how the prevalence of TLS sessions being established where the 
 Server Name Indicator (SNI) was incorrect when compared to the Subject 
-Alternative Name (SAN) contained within the Server Certificate.  
+Alternative Name (SAN) contained within the Server Certificate.
+
 Applications and browsers that are establishing these mismatched 
 connections have TLS hygiene issues because these sessions are 
 being improperly established.  
@@ -627,7 +622,7 @@ the inspection capabilities of middleboxes are designed based on the
 server certificate, all vendors worked to adapt their capabilities to support 
 TLS 1.3 (e.g ServerHello encryption).
 
-How do providers undertake inspection?
+#### How do providers undertake inspection?
 
 The most common technique to support TLS 1.3 inspection is to 
 get the SNI from the ClientHello (which is still shared in plain text format in 
@@ -815,14 +810,13 @@ standard APIs adds to the difficulty to the need to orchestrate the
 web extension with the operating system.  An area where Regulators
 may consider be prescriptive.
 
-# Use Cases: The Impact of ECH on private network contexts (enterprises or 
-other organisations)
+# Use Cases: The Impact of ECH on private network contexts (enterprises or other organisations)
 
 ## Context
 
 ### The main requirements
 
-EEnterprises and other organisations need to protect themselves for a vast
+Enterprises and other organisations need to protect themselves for a vast
 number of reasons, including to:
 
 *  Reduce their risks.  In particular, as part of any Cyber
@@ -1057,7 +1051,7 @@ regulatory system put in place by the state with a view to
 defining the conditions and the procedures to be respected by
 those who engage in the blocking, filtering or takedown of online
 material.  In the absence of a specific or targeted legal
-framework, some countries rely on an existing ÒgeneralÓ legal
+framework, some countries rely on an existing general legal
 framework that is not specific to the Internet to conduct what is 
 limited blocking or takedown of unlawful online material.  It 
 relies on self-regulation by network operators or limited
@@ -1190,8 +1184,7 @@ system, applications, browsers, etc.) cannot be judge and jury.)
 
 (Editorial note: this is a placeholder for future issues)
 
-## Future operational deployment issues due to the introduction of the 
-Client Facing servers
+## Future operational deployment issues due to the introduction of the Client Facing servers
 
 (Editorial note: this is a placeholder for future issues;
 
@@ -1233,7 +1226,7 @@ problems and what are the migration paths?
 
 # Potential further development of this work
 
-## Potential development of this document.
+## Potential development of this document
 
 This section lists potential development of this work in particular
 for the General Issues section.
